@@ -1,17 +1,56 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <title>Flr</title>
-    <base href="/">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Yan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: sans-serif;
+      font-size: calc(10px + 0.33vw);
+      -webkit-font-smoothing: antialiased;
+      padding: 5vh 10vw;
+      color: #333;
+    }
+    h1 {
+      font-size: 4.5em;
+      font-weight: 500;
+      margin-bottom: 0;
+    }
+    p {
+      font-size: 1.6em;
+      font-weight: 300;
+      line-height: 1.5;
+    }
+    a {
+      text-decoration: none;
+      color: #333;
+      position: relative;
+    }
+    a:after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 80%;
+      left: -0.1em;
+      right: -0.1em;
+      bottom: 0;
+      transition: top 200ms cubic-bezier(0, .8, .13, 1);
+      background-color: rgba(21,160,230,0.5);
+    }
+    a:hover:after {
+      top: 0%;
+    }
+    img{
+        width: 100px;
+    }
+  </style>
 </head>
-
 <body>
-    <app-root></app-root>
-<script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="polyfills.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="scripts.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
-
+  <h1>Hello,</h1>
+  <p style="font-weight:500; font-size:2.2em">
+    My name is Yan.
+  </p>
+</body>
 </html>
